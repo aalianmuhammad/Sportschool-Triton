@@ -1,0 +1,21 @@
+body
+{
+    background: #000428;  
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  
+    background: linear-gradient(to right, #004e92, #000428); 
+
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Abonnementen
+{
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: 30px 0px;
+}
+

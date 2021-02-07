@@ -1,0 +1,41 @@
+body
+{
+    background: #000428;  
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  
+    background: linear-gradient(to right, #004e92, #000428); 
+}
+
+.text-center
+{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.hover-border
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    text-decoration: none;
+    position: relative;
+    color: white;  
+}
+
+.hover-border::after
+{
+    content: '' ;
+    width: 0%;
+    height: 7px;
+    background: #F0F2F0; 
+    background: -webkit-linear-gradient(to left, #000C40, #F0F2F0);  
+    background: linear-gradient(to left, #000C40, #F0F2F0); 
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease;
+}
+
+.hover-border:hover::after
+{
+    left: 0%;
+    width: 100%;
+}
